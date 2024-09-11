@@ -1,0 +1,14 @@
+{
+    "name": "vendor/iamge_compressor",
+    "description": "Script for compress some images",
+    "autoload": {
+        "psr-4": {
+            "ImageCompressor\\": "/",
+            "Utils\\": "./utils"
+        }
+    },
+    "require": {
+        "intervention/image": "^3.8",
+        "php-ffmpeg/php-ffmpeg": "^1.2"
+    }
+}
